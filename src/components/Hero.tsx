@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Download, Mail, Github, Linkedin, MapPin, Phone } from "lucide-react";
-import jagannathPhoto from "@/assets/jagannath-photo.png";
+// import jagannathPhoto from "@/assets/jagannath-photo.png";
 
 const Hero = () => {
   return (
@@ -89,7 +89,7 @@ const Hero = () => {
                 <div className="relative">
                   <div className="w-64 h-64 mx-auto rounded-full overflow-hidden shadow-glow">
                     <img 
-                      src={jagannathPhoto} 
+                      src="/lovable-uploads/c49ff5f1-a8e8-49f2-a96b-4afbd5aad3ad.png" 
                       alt="Jagannath V V - Data Scientist"
                       className="w-full h-full object-cover"
                     />
